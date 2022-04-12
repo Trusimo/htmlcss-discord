@@ -5,7 +5,8 @@
 }
 
 header {
-    
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -24,7 +25,6 @@ p {
 }
 
 .nav {
-    background-color: #add8e6;
     min-height: 70px;
     padding: 10px 0;
     margin: auto;
@@ -46,20 +46,28 @@ p {
 }
 
 .button {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding: 10px;
-        width: 200px;
-        border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn {
+        border: 0;
+        line-height: 2;
+        padding: 0 5px;
+        border-radius: 8px;
+        text-align: center;
 }
 
 .link {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border: dashed 1px black;
-    width:calc(100% - 100px);
+    width:calc(100% - 400px);
+}
+
+.linknav {
+    color: white;
 }
 
 .slogan {
