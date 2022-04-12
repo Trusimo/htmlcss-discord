@@ -14,7 +14,10 @@ footer {
     min-height: 450px;
     padding-top: 8px;
     padding-bottom: 20px;
+    color: white;
 }
+
+/* HEADER */
 
 .firstitle {
     color: white;
@@ -55,6 +58,10 @@ footer {
     padding: 10px;
 }
 
+.logo:hover {
+    background-color: #102a74;
+}
+
 .button {
     display: flex;
     align-items: center;
@@ -64,8 +71,8 @@ footer {
 .btn {
     border: 0;
     line-height: 2;
-    padding: 0 5px;
-    border-radius: 8px;
+    padding: 0 10px;
+    border-radius: 12px;
     text-align: center;
 }
 
@@ -126,6 +133,8 @@ footer {
 .btn-black:hover {
     background-color: rgb(45, 42, 42);
 }
+
+/* MAIN */
 
 .mainpar {
     line-height: 1.5;
@@ -211,6 +220,7 @@ footer {
     background-color: #5a76cf;
 }
 
+ /* FOOTER */
 .containfoot {
     max-width: 960px;
     margin: auto;
@@ -224,21 +234,58 @@ footer {
 }
 
 .bigcol {
-    background-color: #f08080;
-    border: dashed 1px black;
+    padding: 0 30px;
     width: 30%;
+}
+
+.footitle {
+    color: #7289da;
+    padding: 15px 0;
+}
+
+ul > li:first-of-type {
+    color: #7289da;
+    font-weight: bold;
+}
+
+ul {
+    padding: 15px 0;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.lingua {
+    padding: 0px 5px;
+}
+
+.lingua:hover {
+    text-decoration: underline;
+}
+
+.italogo {
+    width: 20px;
+    height: auto;
+}
+
+.social-icon {
+    padding-top: 20px;
+    padding-right: 10px;
 }
 
 .multicol {
     display: flex;
     justify-content: space-between;
-    background-color: #20b2aa;
-    border: dashed 1px black;
     width: 70%;
 }
 
 .col {
-    border: dashed 1px black;
     width: 100%;
 }
 
@@ -252,18 +299,19 @@ hr {
     display: flex;
     justify-content: space-between;
     min-height: 50px;
-    background-color: #7fffd4;
     padding: 12px 0;
 }
 
-.logo2 {
-    background-color: #ffb6c1;
-    border: dashed 1px black;
-    padding: 2px;
+.register-btn {
+    color: white;
+    border: 0;
+    line-height: 2;
+    padding: 2px 10px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #8ea1e1;
 }
 
-.button2 {
-    background-color: #ffb6c1;
-    border: dashed 1px black;
-    padding: 2px;
+.register-btn:hover {
+    background-color: #5a76cf;
 }
