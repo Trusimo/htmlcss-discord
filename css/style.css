@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    background-color: #add8e6;
+    min-height: 70px;
+    padding: 10px 350px;;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+    border: dashed 1px black;
+    min-height: 40px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    border: dashed 1px black;
+}
+
+.button {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 10px;
+        width: 200px;
+        border: dashed 1px black;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 1px black;
+    width:calc(100% - 100px);
+}
+
+.slogan {
+    background-color: #00008b;
+    min-height: 350px;
+    padding: 40px 350px;
+}
+
+.firsttext {
+    background-color: #ee82ee;
+    border: dashed 1px black;
+    min-height: 350px;
+    width: 80%;
+}
+
+.paragrafo {
+    min-height: 450px;
+    padding: 40px 350px;
+}
+
+.greyparagrafo {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 450px;
+    padding: 40px 350px;
+    background-color: #d3d3d3;
+}
+
+.immagine {
+    background-color: #1e90ff;
+    border: dashed 1px black;
+    min-height: 350px;
+    width: 60%;
+}
+
+.testo {
+    background-color: #ffc0cb;
+    border: dashed 1px black;
+    min-height: 350px;
+    width: 40%;
+}
+
+.bigparagrafo {
+    background-color: #d3d3d3;
+    min-height: 800px;
+    padding: 40px 350px;
+}
+
+.bigtesto {
+    min-height: 700px;
+    background-color: #228b22;
+    border: dashed 1px black;
+    width: 100%;
+}
+
+footer {
+    background-color: #23272a;
+    min-height: 450px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.indirizzi {
+    display: flex;
+    justify-content: space-between;
+    min-height: 450px;
+    width: 100%;
+}
+
+.bigcol {
+    background-color: #f08080;
+    border: dashed 1px black;
+    width: 30%;
+}
+
+.multicol {
+    display: flex;
+    justify-content: space-between;
+    background-color: #20b2aa;
+    border: dashed 1px black;
+    width: 70%;
+}
+
+.col {
+    border: dashed 1px black;
+    width: 100%;
+}
+
+
+hr {
+    color: white;
+    margin: 15px 0;
+}
+
+.footlogo {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: #7fffd4;
+    padding: 12px 0;
+}
+
+.logo2 {
+    background-color: #ffb6c1;
+    border: dashed 1px black;
+    padding: 2px;
+}
+
+.button2 {
+    background-color: #ffb6c1;
+    border: dashed 1px black;
+    padding: 2px;
+}
