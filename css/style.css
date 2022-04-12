@@ -9,13 +9,20 @@ header {
     background-size: cover;
 }
 
-h1 {
+footer {
+    background-color: #23272a;
+    min-height: 450px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.firstitle {
     color: white;
     text-align: center;
     padding-bottom: 30px;
 }
 
-p {
+.firstpar {
     color: white;
     text-align: center;
     line-height: 1.5;
@@ -46,7 +53,6 @@ p {
     display: flex;
     align-items: center;
     padding: 10px;
-    width: 200px;
 }
 
 .button {
@@ -56,11 +62,11 @@ p {
 }
 
 .btn {
-        border: 0;
-        line-height: 2;
-        padding: 0 5px;
-        border-radius: 8px;
-        text-align: center;
+    border: 0;
+    line-height: 2;
+    padding: 0 5px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .btn:hover {
@@ -121,8 +127,29 @@ p {
     background-color: rgb(45, 42, 42);
 }
 
+.mainpar {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.testo {
+    padding: 0px 30px;
+}
+
+.imgleft {
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 170px;
+}
+
+.imgright {
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 170px;
+}
+
 .sfondogrigio {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .paragrafo {
@@ -141,22 +168,8 @@ p {
     max-width: 960px;
 }
 
-.immagine {
-    background-color: #1e90ff;
-    border: dashed 1px black;
-    min-height: 350px;
-    width: 60%;
-}
-
-.testo {
-    background-color: #ffc0cb;
-    border: dashed 1px black;
-    min-height: 350px;
-    width: 40%;
-}
-
 .bigparagrafo {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     min-height: 800px;
     padding: 40px 0;
     margin: auto;
@@ -164,17 +177,38 @@ p {
 }
 
 .bigtesto {
-    min-height: 700px;
-    background-color: #228b22;
-    border: dashed 1px black;
     width: 100%;
+    text-align: center;
+    padding: 0px 100px;
 }
 
-footer {
-    background-color: #23272a;
-    min-height: 450px;
-    padding-top: 8px;
-    padding-bottom: 20px;
+.bigimg {
+    display: flex;
+    justify-content: center;
+}
+
+.big-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content:center;
+}
+
+.main-btn {
+    color: white;
+    background-color: #8ea1e1;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.main-btn:hover {
+    background-color: #5a76cf;
 }
 
 .containfoot {
